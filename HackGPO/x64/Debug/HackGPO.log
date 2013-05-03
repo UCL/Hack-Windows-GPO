@@ -1,0 +1,45 @@
+﻿  stdafx.cpp
+  HackGPO.cpp
+HackGPO.obj : error LNK2019: unresolved external symbol __imp_RegCloseKey referenced in function wmain
+HackGPO.obj : error LNK2019: unresolved external symbol __imp_RegDeleteValueW referenced in function wmain
+HackGPO.obj : error LNK2019: unresolved external symbol __imp_RegSetValueExW referenced in function wmain
+HackGPO.obj : error LNK2019: unresolved external symbol __imp_RegCreateKeyExW referenced in function wmain
+HackGPO.obj : error LNK2019: unresolved external symbol __imp_RegOpenKeyExW referenced in function wmain
+HackGPO.obj : error LNK2019: unresolved external symbol __imp_CoCreateInstance referenced in function wmain
+HackGPO.obj : error LNK2001: unresolved external symbol CLSID_GroupPolicyObject
+HackGPO.obj : error LNK2001: unresolved external symbol IID_IGroupPolicyObject
+MSVCRTD.lib(wcrtexe.obj) : error LNK2019: unresolved external symbol __imp_EncodePointer referenced in function pre_c_init
+MSVCRTD.lib(atonexit.obj) : error LNK2001: unresolved external symbol __imp_EncodePointer
+MSVCRTD.lib(wcrtexe.obj) : error LNK2019: unresolved external symbol __imp_Sleep referenced in function __tmainCRTStartup
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp_WideCharToMultiByte referenced in function "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPEAXHHPEBD@Z)
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp_IsDebuggerPresent referenced in function "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPEAXHHPEBD@Z)
+MSVCRTD.lib(gs_report.obj) : error LNK2001: unresolved external symbol __imp_IsDebuggerPresent
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp_MultiByteToWideChar referenced in function "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPEAXHHPEBD@Z)
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp_RaiseException referenced in function "int __cdecl DebuggerProbe(unsigned long)" (?DebuggerProbe@@YAHK@Z)
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp_lstrlenA referenced in function "void __cdecl _RTC_AllocaFailure(void *,struct _RTC_ALLOCA_NODE *,int)" (?_RTC_AllocaFailure@@YAXPEAXPEAU_RTC_ALLOCA_NODE@@H@Z)
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp_GetProcAddress referenced in function "void __cdecl _RTC_AllocaFailure(void *,struct _RTC_ALLOCA_NODE *,int)" (?_RTC_AllocaFailure@@YAXPEAXPEAU_RTC_ALLOCA_NODE@@H@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2001: unresolved external symbol __imp_GetProcAddress
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp_LoadLibraryW referenced in function "void __cdecl _RTC_AllocaFailure(void *,struct _RTC_ALLOCA_NODE *,int)" (?_RTC_AllocaFailure@@YAXPEAXPEAU_RTC_ALLOCA_NODE@@H@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2001: unresolved external symbol __imp_LoadLibraryW
+MSVCRTD.lib(unhandld.obj) : error LNK2019: unresolved external symbol __imp_SetUnhandledExceptionFilter referenced in function __CxxSetUnhandledExceptionFilter
+MSVCRTD.lib(gs_report.obj) : error LNK2001: unresolved external symbol __imp_SetUnhandledExceptionFilter
+MSVCRTD.lib(atonexit.obj) : error LNK2019: unresolved external symbol __imp_DecodePointer referenced in function _onexit
+MSVCRTD.lib(gs_support.obj) : error LNK2019: unresolved external symbol __imp_QueryPerformanceCounter referenced in function __security_init_cookie
+MSVCRTD.lib(gs_support.obj) : error LNK2019: unresolved external symbol __imp_GetTickCount referenced in function __security_init_cookie
+MSVCRTD.lib(gs_support.obj) : error LNK2019: unresolved external symbol __imp_GetCurrentThreadId referenced in function __security_init_cookie
+MSVCRTD.lib(gs_support.obj) : error LNK2019: unresolved external symbol __imp_GetCurrentProcessId referenced in function __security_init_cookie
+MSVCRTD.lib(gs_support.obj) : error LNK2019: unresolved external symbol __imp_GetSystemTimeAsFileTime referenced in function __security_init_cookie
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp_HeapFree referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp_HeapAlloc referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp_GetProcessHeap referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp_GetModuleFileNameW referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp_VirtualQuery referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp_GetModuleHandleW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp_FreeLibrary referenced in function "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_TerminateProcess referenced in function __report_gsfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_GetCurrentProcess referenced in function __report_gsfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_UnhandledExceptionFilter referenced in function __report_gsfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol RtlVirtualUnwind referenced in function __report_gsfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol RtlLookupFunctionEntry referenced in function __report_gsfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_RtlCaptureContext referenced in function __report_gsfailure
+C:\Users\rmhanje\Dropbox\workspace\HackGPO\x64\Debug\HackGPO.exe : fatal error LNK1120: 37 unresolved externals
